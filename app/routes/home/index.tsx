@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import type { Route } from "./+types/index";
 import Hero from "~/components/hero/Hero";
+import AboutPreview from "~/components/about-preview/AboutPreview";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -12,10 +13,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <>
-      <Hero
-        name="Mohamed"
-        text="I build Friendly Web experiences and help others with their businesses"
-      />
+      <AboutPreview />
     </>
   );
 }

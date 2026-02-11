@@ -8,7 +8,7 @@ interface HeroProps {
 
 function Hero({ name = "[Name]", text }: HeroProps) {
   return (
-    <section className="text-center py-20 px-4 bg-gray-900 text-white transition-colors duration-300">
+    <div className="text-center py-20 px-4 bg-gray-900 text-white transition-colors duration-300">
       <h2 className="text-4xl font-bold mb-4 flex gap-4 items-center justify-center">
         <span>Hey, I'm {name}</span> <FaHandSparkles />
       </h2>
@@ -27,7 +27,7 @@ function Hero({ name = "[Name]", text }: HeroProps) {
           View Projects
         </Link>
       </div>
-    </section>
+    </div>
   );
 }
 
