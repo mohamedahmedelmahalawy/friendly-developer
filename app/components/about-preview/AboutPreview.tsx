@@ -12,7 +12,11 @@ function AboutPreview() {
       </figure>
       <div>
         <h2 className="text-2xl font-bold text-white mb-2">About Me</h2>
-        <p className="text-gray-200 mab-4 max-w 4xl">~</p>
+        <p className="text-gray-200 mab-4 max-w 4xl">
+          I help entrepreneurs build valuable businesses with coding and
+          real-world skills. Through practical tutorials, I empower creators to
+          earn trust and deliver value.
+        </p>
         <Link
           to="/about"
           className="inline-block text-blue-400 hover:underline text-sm"
