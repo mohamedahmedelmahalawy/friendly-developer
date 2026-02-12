@@ -1,3 +1,11 @@
+import type { Route } from "./+types";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "New React Router App" },
+    { name: "description", content: "custom website developement | Blog" },
+  ];
+}
 function BlogPage() {
   return (
     <>
