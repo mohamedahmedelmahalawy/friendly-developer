@@ -16,5 +16,7 @@ export default [
       "./routes/projects/project-details/ProjectDetailsPage.tsx",
     ),
     route("blog", "./routes/blog/index.tsx"),
+    route("blog/:slug", "./routes/blog/blog-details/BlogDetails.tsx"),
+    route("*", "./routes/errors/not-found/NotFound.tsx"),
   ]),
 ] satisfies RouteConfig;

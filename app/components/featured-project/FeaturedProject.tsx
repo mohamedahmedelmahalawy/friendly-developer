@@ -13,7 +13,7 @@ function FeaturedProject({ projects, count = 4 }: FeaturedProjectProps) {
     .slice(0, count);
   return (
     <section>
-      <h2 className="text-2xl font-bold mb-6 text-gray-200">
+      <h2 className="text-2xl font-bold mb-6 text-gray-200 flex items-center gap-2">
         <i>
           <BsStars />
         </i>
